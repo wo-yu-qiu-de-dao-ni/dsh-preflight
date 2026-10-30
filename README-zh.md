@@ -40,7 +40,8 @@
 | 环境 | 装法 | 效果 |
 |---|---|---|
 | **DSH CLI** | 下载 `dsh-preflight-1.3.0.tgz` → `dsh plugin --profile web add ./dsh-preflight-1.3.0.tgz` → 重启 → `dsh --profile web --dump-config` 验证出现 `# == dsh-preflight` 层 | 全局生效（所有会话） |
-| **DSH 桌面版** | 插件窗口只认 npm 包名；本地包 → 把"极简版规则"贴进工作区 `AGENTS.md`（默认 `文档\deepseek-harness\default-workspace\`） | 工作区生效，改规则就是改文件 |
+| **DSH 桌面版** | 左侧面板 → **插件** → 右上角**添加插件** → 粘贴本仓库网址 `https://github.com/wo-yu-qiu-de-dao-ni/dsh-preflight` → 点击安装（本仓库 `lib/` 已提交且无构建脚本，不会被构建审批拦截） | 全局生效 |
+| **DSH 桌面版（备选）** | 把"极简版规则"贴进工作区 `AGENTS.md`（默认 `文档\deepseek-harness\default-workspace\`） | 工作区生效，改规则就是改文件 |
 | **Hermes** | 把 `hermes-skill/前置技能_v1.3.0.md` 拷入 skills 目录，**重命名为 `SKILL.md`** | 按需加载，触发词匹配 |
 | **ChatGPT/Claude 等** | 把 `hermes-skill/安装说明.md` 附 B 的通用提示词版存为自定义指令 | 全局生效 |
 
