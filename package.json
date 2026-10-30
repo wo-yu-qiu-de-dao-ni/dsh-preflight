@@ -1,6 +1,6 @@
 {
   "name": "dsh-preflight",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "前置技能：交付质量三段规则（收单拆义务 / 四层输出纪律 / 交付前自检）注入 DSH agent",
   "keywords": [
     "deepseek-harness",

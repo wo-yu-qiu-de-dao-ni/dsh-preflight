@@ -48,7 +48,7 @@
 ## 安装（CLI 用户）
 
 ```sh
-dsh plugin --profile web add ./dsh-preflight-1.3.0.tgz
+dsh plugin --profile web add ./dsh-preflight-1.4.1.tgz
 dsh --profile web        # 重启/启动
 ```
 
