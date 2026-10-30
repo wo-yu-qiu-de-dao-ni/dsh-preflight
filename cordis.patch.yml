@@ -1,0 +1,8 @@
+# 前置技能（preflight）注入 DSH agent 的 system prompt。
+# level: full = 完整三段规则（默认）；mini = 极简版（省 token）。
+# 用户的 profile / home patch 若覆盖本行，需整行重写（config 整体替换，不深合并）。
+- insert:
+    - id: preflight
+      name: dsh-preflight
+      config:
+        level: full
