@@ -1,4 +1,4 @@
-# dsh-preflight（前置技能 v1.3.0）
+# dsh-preflight（前置技能 v1.4.0）
 
 把"前置技能"的交付质量三段规则注入 DSH agent 的 system prompt：
 **收单拆义务定验收标准 → 四层输出纪律 → 交付前自检**。所有产出文档类任务自动按规则执行。
@@ -71,4 +71,4 @@ dsh --profile web --dump-config
 
 ## 反馈
 
-规则内容以 `../前置技能_v1.3.0.md` 为准（本插件内置文本是其命令式转写）。规则有改动时：更新 `lib/index.js` 里的 PREFLIGHT_* 文本 → 升版本号 → 重新 `npm pack`。
+规则内容以 `../前置技能_v1.4.0.md` 为准（本插件内置文本是其命令式转写）。规则有改动时：更新 `lib/index.js` 里的 PREFLIGHT_* 文本 → 升版本号 → 重新 `npm pack`。
