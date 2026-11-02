@@ -1,4 +1,4 @@
-# dsh-preflight（前置技能 v1.5.0 · 候选版）
+# dsh-preflight（前置技能 v1.5.0）
 
 把"前置技能"的交付质量三段规则注入 DSH agent 的 system prompt：
 **收单拆义务定验收标准 → 四层输出纪律 → 交付前自检**。所有产出文档类任务自动按规则执行。
@@ -48,7 +48,7 @@
 ## 安装（CLI 用户）
 
 ```sh
-dsh plugin --profile web add ./dsh-preflight-1.5.0.tgz（候选版，正式发布以 Release v1.5.0 为准）
+dsh plugin --profile web add ./dsh-preflight-1.5.0.tgz
 dsh --profile web        # 重启/启动
 ```
 
